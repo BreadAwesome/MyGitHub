@@ -167,7 +167,6 @@
 				E645C062204931690087AC62 /* Sources */,
 				E645C063204931690087AC62 /* Frameworks */,
 				E645C064204931690087AC62 /* Resources */,
-				901D7A616209274F58DCC1B3 /* [CP] Embed Pods Frameworks */,
 				299A7DEAF43604F743E1CEE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -300,26 +299,12 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGitHub/Pods-MyGitHub-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		901D7A616209274F58DCC1B3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGitHub/Pods-MyGitHub-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C139311F2BEEFB9EA378011F /* [CP] Check Pods Manifest.lock */ = {
